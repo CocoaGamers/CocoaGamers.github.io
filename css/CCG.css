@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*CSSのリセット*/
+* { margin: 0; padding: 0 }
+a { text-decoration: none }
+ul, ol  { list-style: none }
+img { vertical-align: middle }
+
+/*基本設定*/
+html { font-family: serif; }
+body{background-color: black;}
+a:link{ color:#000000; }
+a:active{ color:#FFFFFF; }
+a:hover{ color:#000000; background-color: #808080;}
+a:visited{ color:#000000; }
+a.left:link{ color:#000000; }
+a.left:active{ color:#FFFFFF; }
+a.left:hover{ color:#000000; background-color: #808080; border-radius: 10px 0 0 10px;}
+a.left:visited{ color:#000000; }
+a.right:link{ color:#000000; }
+a.right:active{ color:#FFFFFF; }
+a.right:hover{ color:#000000; background-color: #808080; border-radius: 0 10px 10px 0;}
+a.right:visited{ color:#000000; }
+
+/*白地の背景*/
+#BackColor{ width: 800px; height: 1200px; background-color: white; margin: auto; border-radius:10px;}
+
+/*スライドショーの設定*/
+#illustrate{ width: 760px; height: 530px; margin: 50px 20px 20px 20px; border-top: 20px solid white;}
+#illustrate ul{ list-style: none; position: relative;}
+#illustrate ul li{ position: absolute; top: 0; left: 0; width: 100%; z-index: 0;}
+img{ display: block; max-width: 100%; height: auto;}
+#illustrate ul li{ animation: slide 10.5s infinite; opacity: 0;}
+@keyframes slide{ 0%{opacity: 0;} 4.7%{opacity: 1;z-index: 1;} 33%{opacity: 1;} 37.7%{opacity: 0;z-index: 0;}}
+li:first-child{ position:relative;}
+
+/*メニューの設定*/
+#menu{ width: 760px; height: 40px; margin-left: 20px; color: black;}
+nav { background-color: darkgray; border-radius:10px;}
+nav ul { width: 760px; display: flex; margin: 0 auto; }
+nav ul li{ width: 125px; text-align: center; padding-top: 8px; padding-bottom: 8px;}
+
+/*見出し記事の設定*/
+#text{ width: 760px; height: auto; font-size: 14px; width: 760px; margin: 55px 20px 0 20px;}
+#texts1 { display: inline-block; width: 232px; height: 300px; margin: 0 9px 0 0; vertical-align: top;}
+#texts2 { display: inline-block; width: 232px; height: 300px; margin: 0 9px 0 9px; vertical-align: top;}
+#texts3 { display: inline-block; width: 232px; height: 300px; margin: 0 0 0 9px; vertical-align: top;}
+
+/*見出しの文字の設定*/
+h3.letter { font-size: 20px; letter-spacing: -2px; color: #000000;
+padding-bottom: 16px;}
+p{ font-size: 16px;}
+
+/*縦の仕切り線の設定*/
+span.border{ display: inline-block; width: 2px; height: 40px; border-right: 2px solid black;}
+span.border2{ display: inline-block; width: 2px; height: 260px; border-right: 2px dotted black;}
+
+/*フッターの設定*/
+footer { color: #000000; text-align: center;  padding-bottom: 32px;padding-top: 160px; }
