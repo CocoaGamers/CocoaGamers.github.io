@@ -8,7 +8,7 @@ img { vertical-align: middle }
 
 /*基本設定*/
 html { font-family: serif; }
-body{background-color: black;}
+body{background-image: url(../img/OIP.jpeg)}
 a:link{ color:#000000; }
 a:active{ color:#FFFFFF; }
 a:hover{ color:#000000; background-color: #808080;}
@@ -53,7 +53,7 @@ p{ font-size: 16px;}
 
 /*縦の仕切り線の設定*/
 span.border{ display: inline-block; width: 2px; height: 40px; border-right: 2px solid black;}
-span.border2{ display: inline-block; width: 2px; height: 260px; border-right: 2px dotted black;}
+span.border2{ display: inline-block; width: 2px; height: 350px; border-right: 2px dotted black;}
 
 /*フッターの設定*/
-footer { color: #000000; text-align: center;  padding-bottom: 32px;padding-top: 160px;}
+footer { color: #000000; text-align: center;  padding-bottom: 32px;padding-top: 130px;}
