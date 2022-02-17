@@ -56,4 +56,4 @@ span.border{ display: inline-block; width: 2px; height: 40px; border-right: 2px 
 span.border2{ display: inline-block; width: 2px; height: 260px; border-right: 2px dotted black;}
 
 /*フッターの設定*/
-footer { color: #000000; text-align: center;  padding-bottom: 32px;padding-top: 160px; }
+footer { color: #000000; text-align: center;  padding-bottom: 32px;padding-top: 160px;}
