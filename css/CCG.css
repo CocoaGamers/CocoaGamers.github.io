@@ -31,7 +31,7 @@ a.right:visited{ color:#000000; }
 #illustrate ul li{ position: absolute; top: 0; left: 0; width: 100%; z-index: 0;}
 img{ display: block; max-width: 100%; height: auto;}
 #illustrate ul li{ animation: slide 10.5s infinite; opacity: 0;}
-@keyframes slide{ 0%{opacity: 0;} 4.7%{opacity: 1;z-index: 1;} 33%{opacity: 1;} 37.7%{opacity: 0;z-index: 0;}}
+@keyframes slide{ 0%{opacity: 0;} 10%{opacity: 1;z-index: 1;} 50%{opacity: 1;} 60%{opacity: 0;z-index: 0;}}
 li:first-child{ position:relative;}
 
 /*メニューの設定*/
