@@ -8,7 +8,7 @@ img { vertical-align: middle }
 
 /*基本設定*/
 html { font-family: serif; }
-body{background-image: url(img/YomomoPageImg.jpeg)}
+body{background-image: url(img/TwitchRogo.png)}
 a:link{ color:#000000; }
 a:active{ color:#FFFFFF; }
 a:hover{ color:#000000; background-color: #808080;}
