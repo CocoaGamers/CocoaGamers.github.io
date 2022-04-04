@@ -8,7 +8,7 @@ img { vertical-align: middle }
 
 /*基本設定*/
 html { font-family: serif; }
-body{background-image: url(img/MackyBackImg.png)}
+body{background-image: url(img/MackyBackImg.jpg)}
 a:link{ color:#003300; }
 a:active{ color:#FFFFFF; }
 a:hover{ color:#000000; background-color: #00AA00;}
@@ -41,7 +41,7 @@ nav ul { width: 760px; display: flex; margin: 0 auto; }
 nav ul li{ width: 125px; text-align: center; padding-top: 8px; padding-bottom: 8px; color: #003300;}
 
 /*見出し記事の設定*/
-#text{ width: 760px; height: auto; font-size: 14px; width: 760px; margin: 55px 20px 0 20px; color: #32CD32;}
+#text{ width: 760px; height: auto; font-size: 14px; width: 760px; margin: 55px 20px 0 20px; color: #0EB607;}
 #texts1 { display: inline-block; width: 232px; height: 300px; margin: 0 9px 0 0; vertical-align: top;}
 #texts2 { display: inline-block; width: 232px; height: 300px; margin: 0 9px 0 9px; vertical-align: top;}
 #texts3 { display: inline-block; width: 232px; height: 300px; margin: 0 0 0 9px; vertical-align: top;}

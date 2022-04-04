@@ -23,7 +23,7 @@ a.right:hover{ color:#000000; background-color: #FF5F17; border-radius: 0 10px 1
 a.right:visited{ color:#000000; }
 
 /*白地の背景*/
-#BackColor{ width: 800px; height: 1200px; background-color: white; margin: auto; border-radius:10px;}
+#BackColor{ width: 800px; height: 1400px; background-color: white; margin: auto; border-radius:10px;}
 
 /*スライドショーの設定*/
 #illustrate{ width: 760px; height: 530px; margin: 50px 20px 20px 20px; border-top: 20px solid white;}
@@ -41,22 +41,23 @@ nav ul { width: 760px; display: flex; margin: 0 auto; }
 nav ul li{ width: 125px; text-align: center; padding-top: 8px; padding-bottom: 8px; color: #b32400;}
 
 /*見出し記事の設定*/
-#text{ width: 760px; height: auto; font-size: 14px; width: 760px; margin: 55px 20px 0 20px; color: orange;}
-#texts1 { display: inline-block; width: 232px; height: 300px; margin: 0 9px 0 0; vertical-align: top;}
-#texts2 { display: inline-block; width: 232px; height: 300px; margin: 0 9px 0 9px; vertical-align: top;}
-#texts3 { display: inline-block; width: 232px; height: 300px; margin: 0 0 0 9px; vertical-align: top;}
+#text{ width: 760px; height: auto; font-size: 14px; width: 760px; margin: 55px 20px 0 20px; color: coral;}
+div.texts1 { display: inline-block; width: 365px; height: 300px; margin: 0 9px 0 0; vertical-align: top;font-weight: 900;}
+div.texts2 { display: inline-block; width: 365px; height: 300px; margin: 0 0 0 9px; vertical-align: top; font-weight: 900;}
+div.texts3 { display: inline-block; width: 365px; height: 300px; margin: 0 0 0 9px; vertical-align: top; font-weight: 900;}
+div.texts4 { display: inline-block; width: 365px; height: 300px; margin: 0 0 0 9px; vertical-align: top; font-weight: 900; overflow-y: scroll;}
 
 /*見出しの文字の設定*/
 h3.letter { font-size: 20px; letter-spacing: -2px; color: #000000;
-padding-bottom: 16px; color: coral;}
-p{ font-size: 16px; }
+padding-bottom: 16px; color: #D86C0D;}
+p{font-size: 16px; }
 
 /*縦の仕切り線の設定*/
 span.border{ display: inline-block; width: 2px; height: 45px; border-right: 2px solid #b32400;}
-span.border2{ display: inline-block; width: 2px; height: 350px; border-right: 2px dotted #b32400;}
+span.border2{ display: inline-block; height: 300px; border-right: 3px dotted #b32400;}
 
 /*フッターの設定*/
-footer { color: #000000; text-align: center;  padding-bottom: 32px;padding-top: 130px;}
+footer { color: #000000; text-align: center; padding-bottom: 55px; padding-top: 60px;}
 
 
 
