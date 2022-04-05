@@ -8,7 +8,7 @@ img { vertical-align: middle }
 
 /*基本設定*/
 html { font-family: serif; }
-body{background-image: url(img/ku-chanimg.jpg)}
+body{background-image: url(img/OIP.jpeg)}
 a:link{ color:#000000; }
 a:active{ color:#FFFFFF; }
 a:hover{ color:#000000; background-color: #808080;}
@@ -23,10 +23,10 @@ a.right:hover{ color:#000000; background-color: #808080; border-radius: 0 10px 1
 a.right:visited{ color:#000000; }
 
 /*白地の背景*/
-#BackColor{ width: 800px; height: 1200px; background-color: white; margin: auto; border-radius:10px;}
+#BackColor{ width: 800px; height: 1200px; background-color: #c0c0c0; margin: auto; border-radius:10px;}
 
 /*スライドショーの設定*/
-#illustrate{ width: 760px; height: 530px; margin: 50px 20px 20px 20px; border-top: 20px solid white;}
+#illustrate{ width: 760px; height: 530px; margin: 50px 20px 20px 20px; border-top: 20px solid #c0c0c0;}
 #illustrate ul{ list-style: none; position: relative;}
 #illustrate ul li{ position: absolute; top: 0; left: 0; width: 100%; z-index: 0;}
 

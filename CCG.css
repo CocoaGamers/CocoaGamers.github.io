@@ -23,7 +23,7 @@ a.right:hover{ color:#000000; background-color: #808080; border-radius: 0 10px 1
 a.right:visited{ color:#000000; }
 
 /*白地の背景*/
-#BackColor{ width: 800px; height: 1200px; background-color: white; margin: auto; border-radius:10px;}
+#BackColor{ width: 800px; height: 1240px; background-color: white; margin: auto; border-radius:10px;}
 
 /*スライドショーの設定*/
 #illustrate{ width: 760px; height: 530px; margin: 50px 20px 20px 20px; border-top: 20px solid white;}
@@ -56,4 +56,4 @@ span.border{ display: inline-block; width: 2px; height: 45px; border-right: 2px 
 span.border2{ display: inline-block; width: 2px; height: 350px; border-right: 2px dotted black;}
 
 /*フッターの設定*/
-footer { color: #000000; text-align: center;  padding-bottom: 32px;padding-top: 100px;}
+footer { color: #000000; text-align: center;  padding-bottom: 55px;padding-top: 150px;}
