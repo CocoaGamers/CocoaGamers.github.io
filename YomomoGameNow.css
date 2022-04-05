@@ -51,6 +51,8 @@ div.texts4 { display: inline-block; width: 365px; height: 300px; margin: 0 0 0 9
 h3.letter { font-size: 20px; letter-spacing: -2px; color: #000000;
 padding-bottom: 16px; color: #b32400;}
 p{font-size: 16px; }
+//はみ出しちゃって改行が入っちゃう文
+#tyoubun{font-size: 14px;}
 
 /*縦の仕切り線の設定*/
 span.border{ display: inline-block; width: 2px; height: 45px; border-right: 2px solid #b32400;}
