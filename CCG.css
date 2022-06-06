@@ -57,3 +57,38 @@ span.border2{ display: inline-block; width: 2px; height: 350px; border-right: 2p
 
 /*フッターの設定*/
 footer { color: #000000; text-align: center;  padding-bottom: 55px;padding-top: 150px;}
+
+/* Loading Block */
+#loading {
+  width: 100vw;
+  height: 100vh;
+  transition: all 6s;
+  background-color: #f5deb3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.spinner {
+  width: 300px;
+  height: 300px;
+  margin: 200px auto;
+  background-color: #fff;
+  border-radius: 100%;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+/* Loading Animation */
+@keyframes sk-scaleout {
+  0% {
+    transform: scale(0);
+  } 100% {
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+/* Hide Loading Block */
+.loaded {
+  opacity: 0;
+  visibility: hidden;
+}

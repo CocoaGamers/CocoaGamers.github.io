@@ -4,9 +4,20 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="CCG.css" media="screen, print">
         <title>CocoaGamers</title>
+        <script type="application/javascript">
+            window.onload = function() {
+                const spinner = document.getElementById('loading');
+                
+                // Add .loaded to .loading
+                spinner.classList.add('loaded');
+            }
+        </script>
     </head>
 <!---------------------------------------------------------------->
     <body>
+        <div id="loading">
+            <div class="spinner"></div>
+        </div>
         <div id="BackColor">
         <div id="illustrate">
             <ul>
