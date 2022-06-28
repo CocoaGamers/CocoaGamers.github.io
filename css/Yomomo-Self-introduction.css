@@ -66,6 +66,9 @@ h1::before {
     z-index: 90;
     background-color: #CD853F;
 }
+.menu-btn:hover{
+    background-color: #E3893F;
+}
 .menu-btn span,
 .menu-btn span:before,
 .menu-btn span:after {
@@ -163,19 +166,106 @@ details summary span {
     color: #000;
 }
 
-#menuP{
+.menuP{
     font-size: 16px;
     color: white;
     margin: 3px 0 3px 20px; 
 }
+
+.menuP:link{ color:#FFFFFF; }
+.menuP:active{ color:#FFFFFF; }
+.menuP:hover{ color:#FDF5E6; background-color: #CD853F; width: 167px;border-radius:4px;}
+.menuP:visited{ color:#FFFFFF; }
+
+#menuH:link{ color:#FFFFFF; }
+#menuH:active{ color:#FFFFFF; }
+#menuH:hover{ color:#FDF5E6; background-color: #CD853F;border-radius:4px;}
+#menuH:visited{ color:#FFFFFF; }
         
 #menuH{
     font-size: 20px;
 }
 
+#Ycontents1{
+    height: 150px;
+    background-color: orange;
+}
+#Ycontents2{
+    height: 150px;
+    background-color: orange;
+}
+#Ycontents3{
+    height: 150px;
+    background-color: orange;
+}
+#HHH{
+    text-align: center;
+    font-size: 20px;
+}
+#P{
+    margin: 0 5% 5% 5%;
+    font-size: 12px;
+}
+#HHH2{
+    text-align: center;
+    font-size: 20px;
+}
+#P2{
+    margin: 0 5% 5% 5%;
+    font-size: 12px;
+}
+#HHH3{
+    text-align: center;
+    font-size: 20px;
+}
+#P3{
+    margin: 0 5% 5% 5%;
+    font-size: 12px;
+}
+#contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin-left:10%;
+    background-color: white;
+}
+#Icon{
+    display: inline-block; 
+}
+#contents2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin-left:10%;
+    background-color: white;
+}
+#Icon2{
+    display: inline-block; 
+}
+#contents3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin-left:10%;
+    background-color: white;
+}
+#Icon3{
+    display: inline-block; 
+}
+
 footer {
     color: #000000;
     text-align: center;
+    font-size: 16px;
     padding-bottom: 55px;padding-top: 150px;
     font-family: "Arial Black";
 }
