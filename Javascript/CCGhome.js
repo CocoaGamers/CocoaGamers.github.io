@@ -80,8 +80,8 @@ window.addEventListener('scroll', function () {
             }
             .sample-text2 {
                 margin-left: 5%;
-                margin-top: 7%;
-                margin-bottom:  5%; 
+                margin-top: 2%;
+                margin-bottom:  5%;
                 animation-name: fadein;
                 animation-duration: 4s;
             }
