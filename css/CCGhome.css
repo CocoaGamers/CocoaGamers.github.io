@@ -13,6 +13,7 @@ body{
 /*白地の背景*/
 #whole{
     width: 60%;
+    min-width: 400px;
     height: auto;
     background-color: white;
     margin: 10px auto 10px auto;
@@ -99,6 +100,7 @@ h1::before {
 }
 .menu-content {
     width: 100%;
+    min-width: 400px;
     height: 100%;
     position: fixed;
     top: 0;
@@ -143,6 +145,7 @@ list-style: none;
 }
 .menu-content {
     width: 100%;
+    min-width: 400px;
     height: 100%;
     position: fixed;
     top: 0;
@@ -153,6 +156,7 @@ list-style: none;
 }
 
 #menu-btn-check:checked ~ .menu-content {
+    min-width: 400px;
     left: 67%;/*メニューを画面内へ*/
 }
 details summary {
@@ -169,15 +173,16 @@ details summary span {
 }
 .menuP:link{ color:#FFFFFF; }
 .menuP:active{ color:#FFFFFF; }
-.menuP:hover{ color:#FDF5E6; background-color: #CD853F; width: 167px;border-radius:4px;}
+.menuP:hover{ color:#FDF5E6; background-color: #CD853F; width: 167px; border-radius:4px; }
 .menuP:visited{ color:#FFFFFF; }
 
 #menuH:link{ color:#FFFFFF; }
 #menuH:active{ color:#FFFFFF; }
-#menuH:hover{ color:#FDF5E6; background-color: #CD853F;border-radius:4px;}
+#menuH:hover{ color:#FDF5E6; background-color: #CD853F; border-radius:4px; }
 #menuH:visited{ color:#FFFFFF; }
         
 #menuH{
+    min-width: 167px;
     font-size: 20px;
 }
 
@@ -195,11 +200,11 @@ footer {
 
 #HHH{
     text-align: center;
-    font-size: 20px;
+    font-size: 32px;
 }
 #P{
     margin: 0 5% 5% 5%;
-    font-size: 12px;
+    font-size: 16px;
 }
 #contents{
     display: flex;
@@ -221,11 +226,11 @@ footer {
 }
 #HHH2{
     text-align: center;
-    font-size: 20px;
+    font-size: 32px;
 }
 #P2{
     margin: 0 5% 5% 5%;
-    font-size: 12px;
+    font-size: 16px;
 }
 #contents2{
     display: flex;

@@ -33,11 +33,11 @@ window.addEventListener('scroll', function () {
             }
             #HHH{
                 text-align: center;
-                font-size: 20px;
+                font-size: 32px;
             }
             #P{
                 margin: 0 5% 5% 5%;
-                font-size: 12px;
+                font-size: 16px;
             }
             .an2-fadeup {
                 font-weight: bold;
@@ -97,11 +97,11 @@ window.addEventListener('scroll', function () {
             }
             #HHH2{
                 text-align: center;
-                font-size: 20px;
+                font-size: 32px;
             }
             #P2{
                 margin: 0 5% 5% 5%;
-                font-size: 12px;
+                font-size: 16px;
             }
             .an2-fadeup2 {
                 font-weight: bold;

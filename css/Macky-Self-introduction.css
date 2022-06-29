@@ -13,6 +13,7 @@ body{
 /*白地の背景*/
 #whole{
     width: 60%;
+    min-width: 400px;
     height: auto;
     background-color: white;
     margin: 10px auto 10px auto;
@@ -183,6 +184,7 @@ details summary span {
 #menuH:visited{ color:#FFFFFF; }
         
 #menuH{
+    min-width: 167px;
     font-size: 20px;
 }
 
@@ -200,27 +202,27 @@ details summary span {
 }
 #HHH{
     text-align: center;
-    font-size: 20px;
+    font-size: 32px;
 }
 #P{
     margin: 0 5% 5% 5%;
-    font-size: 12px;
+    font-size: 16px;
 }
 #HHH2{
     text-align: center;
-    font-size: 20px;
+    font-size: 32px;
 }
 #P2{
     margin: 0 5% 5% 5%;
-    font-size: 12px;
+    font-size: 16px;
 }
 #HHH3{
     text-align: center;
-    font-size: 20px;
+    font-size: 32px;
 }
 #P3{
     margin: 0 5% 5% 5%;
-    font-size: 12px;
+    font-size: 16px;
 }
 #contents{
     display: flex;
