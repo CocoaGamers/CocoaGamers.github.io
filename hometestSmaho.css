@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+/*CSSのリセット*/
+* { margin: 0; padding: 0; }
+a { text-decoration: none; }
+ul, ol { list-style: none; }
+img { vertical-align: middle; }
+
+body{ background-color: darkred; }
+
+/*白地の背景*/
+#whole{
+    width: 80%;
+    min-width: 400px;
+    height: auto;
+    background-color: white;
+    margin: 10px auto 10px auto;
+    border-radius:10px;
+}
+/*Home一番上のCCGの一枚画*/
+#illustration{
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
+.TextFont {
+    font-family: "Arial Black";
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+h1 {
+    width: 87.8%;
+    position: relative;
+    padding: 0.2em;
+    background: #98623F;
+    color: white;
+    margin: 3% auto 0 auto;
+}
+
+h1::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    border: none;
+    border-bottom: solid 15px transparent;
+    border-right: solid 20px rgb(132, 64, 18);
+}
+            
+/*メニューバーの装飾と動作設定*/
+.menu-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 90px;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background-color: #CD853F;
+    border-radius: 10px;
+}
+.menu-btn:hover{
+    background-color: #E3893F;
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 50px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: absolute;
+}
+.menu-btn span:before {
+    bottom: 16px;
+}
+.menu-btn span:after {
+    top: 16px;
+}
+#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+}
+#menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg); 
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+#menu-btn-check {
+    display: none;
+}
+.menu-content {
+    width: 100%;
+    min-width: 400px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
+    background-color: #8B4513;
+}
+.menu-content ul {
+    padding: 70px 10px 0;
+}
+.menu-content ul li {
+    border-bottom: solid 1px #ffffff;
+list-style: none;
+}
+            
+.menu-content ul li span {
+    display: block;
+    width: 30%;
+    font-size: 30px;
+    box-sizing: border-box;
+    color:#ffffff;
+    text-decoration: none;
+    position: relative;
+}
+.menu-content ul li a {
+    display: block;
+    width: 45%;
+    height: 20%;
+    font-size: 32px;
+    box-sizing: border-box;
+    color:#ffffff;
+    text-decoration: none;
+    position: relative;
+}
+.menu-content ul li a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+.menu-content {
+    width: 100%;
+    min-width: 400px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;/*leftの値を変更してメニューを画面外へ*/
+    z-index: 80;
+    background-color: #8B4513;
+    transition: all 0.5s;/*アニメーション設定*/
+}
+
+#menu-btn-check:checked ~ .menu-content {
+    min-width: 400px;
+    left: 50%;/*メニューを画面内へ*/
+}
+details summary {
+    padding-top: 20px;
+    color: transparent;
+}
+details summary span {
+    color: #000;
+}
+
+.menuP{
+    height: 150px;
+    color: white;
+    margin: 16px 0 16px 20px; 
+}
+.menuP:link{ color:#FFFFFF; }
+.menuP:active{ color:#FFFFFF; }
+.menuP:hover{ color:#FDF5E6; background-color: #CD853F; width:267px; height: 48px; border-radius:4px; }
+.menuP:visited{ color:#FFFFFF; }
+
+#menuH:link{ color:#FFFFFF; }
+#menuH:active{ color:#FFFFFF; }
+#menuH:hover{ color:#FDF5E6; background-color: #CD853F; border-radius:4px; }
+#menuH:visited{ color:#FFFFFF; }
+        
+#menuH{
+    min-width: 350px;
+    font-size: 40px;
+}
+
+footer {
+    color: #000000;
+    text-align: center;
+    padding-bottom: 55px;padding-top: 150px;
+    font-family: "Arial Black";
+}
+
+#Yomomo{
+    height: 150px;
+    background-color: orange;
+}
+
+#HHH{
+    text-align: center;
+    font-size: 32px;
+}
+#P{
+    margin: 0 5% 5% 5%;
+    font-size: 16px;
+}
+#contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin-left:10%;
+    background-color: white;
+}
+#Icon{
+    display: inline-block; 
+}
+
+#Macky{
+    height: 150px;
+    background-color: green;
+}
+#HHH2{
+    text-align: center;
+    font-size: 32px;
+}
+#P2{
+    margin: 0 5% 5% 5%;
+    font-size: 16px;
+}
+#contents2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin-left:10%;
+    background-color: white;
+}
+#Icon2{
+    display: inline-block; 
+}
