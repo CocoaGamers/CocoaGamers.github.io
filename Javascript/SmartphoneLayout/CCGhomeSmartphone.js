@@ -33,7 +33,7 @@ window.addEventListener('scroll', function () {
             }
             #H1{
                 text-align: center;
-                font-size: 15px;
+                font-size: 22px;
                 font-weight: bold;
             }
             #P1{
@@ -101,7 +101,8 @@ window.addEventListener('scroll', function () {
             }
             #H2{
                 text-align: center;
-                font-size: 26px;
+                font-size: 22px;
+                font-weight: bold;
             }
             #P2{
                 margin: 0 5% 5% 5%;

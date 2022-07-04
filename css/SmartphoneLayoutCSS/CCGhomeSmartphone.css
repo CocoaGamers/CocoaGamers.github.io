@@ -13,7 +13,7 @@ body{ background-color: darkred; }
     width: 80%;
     height: auto;
     background-color: white;
-    margin: 10px auto 10px auto;
+    margin: 80px auto 10px auto;
     border-radius:10px;
 }
 /*Home一番上のCCGの一枚画*/
@@ -184,9 +184,6 @@ details summary span {
 #menuH{
     min-width: 176px;
     font-size: 20px;
-}
-
-a {
     -webkit-tap-highlight-color:rgba(0,0,0,0);
     cursor:pointer;
 }
