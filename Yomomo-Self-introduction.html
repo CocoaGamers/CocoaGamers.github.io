@@ -4,21 +4,39 @@
         <!--文字コード記述-->
         <meta charset="UTF-8">
         <!--ページタイトル-->
-        <title>CocoaGamers-Yomomo-</title>
-        <link rel="stylesheet" href="css/Yomomo-Self-introduction.css">
-        <script src="Javascript/PC%25E7%2594%25A8%25E3%2583%25AC%25E3%2582%25A4%25E3%2582%25A2%25E3%2582%25A6%25E3%2583%2588/Yomomo-Self-introduction.js" ></script>
+        <title>CocoaGamers-Home-</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        
+        <!-- ▼スマホ用CSS -->
+        <link href="css/SmartphoneLayoutCSS/Yomomo-Self-introduction-Smartphone.css" rel="stylesheet" type="text/css" media="screen and (max-width: 426px)" >
+        <!-- ▼タブレット用CSS -->
+        <link href="css/PCLayoutCSS/Yomomo-Self-introduction.css" rel="stylesheet" type="text/css" media="screen and (min-width: 426px) and (max-width: 2559px)" >
+        <!-- ▼パソコン用CSS -->
+        <link href="css/PCLayoutCSS/Yomomo-Self-introduction.css" rel="stylesheet" type="text/css" media="screen and (min-width: 2560px)" >
+        
+        <!-- ▼スマホ用JS -->
+        <script src="Javascript/SmartphoneLayout/Yomomo-Self-introduction-Smartphone.js" media="screen and (max-width: 426px)"></script>
+        <!-- ▼タブレット用JS -->
+        <script src="Javascript/PCLayout/Yomomo-Self-introduction.js" media="screen and (min-width: 426px) and (max-width: 2559px)"></script>
+        <!-- ▼パソコン用JS -->
+        <script src="Javascript/PCLayout/Yomomo-Self-introduction.js" media="screen and (min-width: 2560px)"></script>
+        
+        
     </head>
     <!--ページの要素記述-->
     <body>
         <div class="hamburger-menu">
             <input type="checkbox" id="menu-btn-check">
+            <!-- ▼三と✕になるボタン -->
             <label for="menu-btn-check" class="menu-btn">
                 <span></span>
             </label>
-            <!--ここからメニュー-->
+            <!--↓ここから右側に出てくるメニュー↓-->
             <div class="menu-content">
                 <ul>
                     <li>
+                        
+                        <!--↓よもものメニュー↓-->
                         <details>
                             <summary><span id="menuH">&ensp;Yomomo_mochi</span></summary>
                             <a class="menuP" href="Yomomo-Self-introduction.html">&ensp;自己紹介</a>
@@ -27,8 +45,12 @@
                             <a class="menuP" href="https://www.youtube.com/channel/UCE_jlhMFkPHPwNNb8RprzZw">&ensp;Youtube</a>
                             <a class="menuP" href="https://twitter.com/YomomoMochi_CCG">&ensp;Twitter</a>
                         </details>
+                        <!--↑よもものメニュー↑-->
+                        
                     </li>
                     <li>
+                        
+                        <!--↓まっきーのメニュー↓-->
                         <details>
                             <summary><span id="menuH">&ensp;Macky_zero</span></summary>
                             <a class="menuP" href="Macky-Self-introduction.html">&ensp;自己紹介</a>
@@ -37,117 +59,164 @@
                             <a class="menuP" href="https://www.youtube.com/channel/UCyMZXaIaiqAkjWEcUyR1pMA">&ensp;Youtube</a>
                             <a class="menuP" href="https://twitter.com/ZeroMacky">&ensp;Twitter</a>
                         </details>
+                        <!--↑まっきーのメニュー↑-->
+                        
                     </li>
                     <li>
+                        <!--↓くーちゃんのメニュー↓-->
                         <details>
                             <summary><span id="menuH">&ensp;Sazarashi</span></summary>
-                            <p class="menuP">&ensp;自己紹介</p>
-                            <p class="menuP">&ensp;配信ゲーム内容</p>
-                            <p class="menuP">&ensp;Twitch</p>
-                            <p class="menuP">&ensp;Youtube</p>
-                            <p class="menuP">&ensp;Twitter</p>
+                            <a class="menuP">&ensp;自己紹介</a>
+                            <a class="menuP">&ensp;配信ゲーム内容</a>
+                            <a class="menuP">&ensp;Twitch</a>
+                            <a class="menuP">&ensp;Youtube</a>
+                            <a class="menuP">&ensp;Twitter</a>
                         </details>
+                        <!--↑くーちゃんのメニュー↑-->
+                        
                     </li>
                     <li>
+                        
+                        <!--↓メインメニュー↓-->
                         <details>
                             <summary><span id="menuH">&ensp;Home</span></summary>
-                            <a class="menuP" href="CCGhome.html">&ensp;メインページへ</a>
+                            <a class="menuP" href="#">&ensp;メインページへ</a>
                         </details>
+                        <!--↑メインメニュー↑-->
+                        
                     </li>
+                    
                     <li>
+                        
+                        <!--↓ミニゲームのメニュー↓-->
                         <details>
                             <summary><span id="menuH">&ensp;MiniGame</span></summary>
                             <a class="menuP" href="MiniGame_slide.html">&ensp;スライドパズル</a>
                         </details>
+                        <!--↑メインメニュー↑-->
+                        
                     </li>
                 </ul>
             </div>
+            <!--↑ここまで右側に出てくるメニュー↑-->
+            
         </div>
+        <!--↓メイン要素の記述↓-->
         <div id="whole">
+            
+            <!--大きなイラスト一枚画-->
             <div id="illustration">
                 <ul>
-                    <li><a><img id="ilast" src="img/YomomoSelfImg.jpg" width="95%" ></a>
+                    <li>
+                        <a><img src="img/YomomoSelfImg.jpg" width="95%" ></a>
                     </li>
                 </ul>
             </div>
-            <h1 class="TextFont">
-                <p id="midashi">Yomomo_mochi</p>
-            </h1>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            
+            <!--イラストの下のテキスト-->
+            <h1 class="TeamText">Yomomo_mochi</h1>
+            
+            <!--↓改行↓-->
+            <br><br><br><br><br>
+            <!--↑改行↑-->
+            
+            <!--↓よももの紹介↓-->
+            <div class="block" id="FadeUpElement">
+                <div id="FirstElement">
+                    <div id="Yomomo">
+                        <img class="FadeUpImage" src="img/YomomoHam.png" width="120px">
+                    </div>
+                    <h3 class="TextFadeUP" id="H1">Yomomo_mochi_141</h3>
+                    <p class="TextFadeUP" id="P1">わざわざ飛んできてくれてありがとう！！よももって言います。今から色々詳しくご紹介させてください！！特に呼び方などは決まってません、好きなように呼んでください。おすすめのゲームなどがあれば教えてください！動画にしやすそうだと思えば配信もするかもです。</p>
+                </div>
+                <div id="IconElements">
+                    <span class="Icon"><a class="IMG" href="https://www.twitch.tv/yomomo_mochi_141"><img class="FadeUpImage" src="img/TWIcon.png" width="100px"></a></span>
+                    <span class="Icon"><a class="IMG" href="https://www.youtube.com/channel/UCE_jlhMFkPHPwNNb8RprzZw"><img class="FadeUpImage" src="img/YTIcon.png" width="100px"></a></span>
+                    <span class="Icon"><a class="IMG" href="https://twitter.com/YomomoMochi_CCG"><img class="FadeUpImage" src="img/TWITTERicon.png" width="100px"></a></span>
+                </div>
+            </div>            
             <!--よももの紹介-->
-            <div class="block" id="target">
-                <div id="YomomoDetail">
-                    <div id="Ycontents1">
-                    <img class="sample-text1" src="img/YomomoHam.png" width="120px">
-                    </div>
-                    
-                    <h3 class="an2-fadeup" id="HHH">Yomomo_mochi_141</h3>
-                    <p class="an2-fadeup" id="P">わざわざ飛んできてくれてありがとう！！よももって言います。今から色々詳しくご紹介させてください！！特に呼び方などは決まってません、好きなように呼んでください。おすすめのゲームなどがあれば教えてください！動画にしやすそうだと思えば配信もするかもです。</p>
-                </div>
-                <div id="contents">
-                    <span class="Icon" id="icon1"><a href="https://www.twitch.tv/yomomo_mochi_141"><img class="sample-text1" src="img/TWIcon.png" width="100px"></a></span>
-                    <span class="Icon" id="icon2"><a href="https://www.youtube.com/channel/UCE_jlhMFkPHPwNNb8RprzZw"><img class="sample-text1" src="img/YTIcon.png" width="100px"></a></span>
-                    <span class="Icon" id="icon3"><a href="https://twitter.com/YomomoMochi_CCG"><img class="sample-text1" src="img/TWITTERicon.png" width="100px"></a></span>
-                </div>
-            </div>
             
-            <!--よももの紹介-->
+            <!--↓改行↓-->
             <br>
             <br>
             <br>
             <br>
             <br>
+            <!--↑改行↑-->
             
-            <!--まっきーの紹介-->
-            <div class="block" id="target2">
-                <div id="MackyDetail">
-                    <div id="Ycontents2">
-                    <img class="sample-text2" src="img/FallYomomo.png" width="100px">
+            <!--↓よももの好きなゲーム↓-->
+            <div class="block" id="FadeUpElement2">
+                <div id="SecondElement">
+                    <div id="Yomomo2">
+                        <img class="FadeUpImage2" src="img/FallYomomo.png" width="100px">
                     </div>
-
-                <h3 class="an2-fadeup2" id="HHH2">好きなゲーム</h3>
-                <p class="an2-fadeup2" id="P2">世界観の凄いゲームは感動しながらプレイしています。特に好き嫌いはなく、リズムやアクション、ホラー、パズル、シミュレーション等々幅広くプレイしています！プレイしたくない程ではないですが、ノベルゲームとリアル重視なレースゲームは飽きがちでした。特に沢山プレイしているゲームは下の三つ！アイコンからsteamの購入ページに行けるから買って遊んでみてね。</p>
-            </div>
-            <div id="contents2">
-                <span class="Icon2" id="icon21"><a href="https://store.steampowered.com/app/1172470/_/?l=japanese"><img class="sample-text2" src="img/ApexIcon.png" width="100px"></a></span>
-                <span class="Icon2" id="icon22"><a href="https://store.steampowered.com/app/524220/NieRAutomata/"><img class="sample-text2" src="img/NierIcon.png" width="100px"></a></span>
-                <span class="Icon2" id="icon23"><a href="https://store.steampowered.com/app/381210/Dead_by_Daylight/"><img class="sample-text2" src="img/DBDIcon.png" width="100px"></a></span>
+                    <h3 class="TextFadeUP2" id="H2">好きなゲーム</h3>
+                    <p class="TextFadeUP2" id="P2">世界観の凄いゲームは感動しながらプレイしています。特に好き嫌いはなく、リズムやアクション、ホラー、パズル、シミュレーション等々幅広くプレイしています！プレイしたくない程ではないですが、ノベルゲームとリアル重視なレースゲームは飽きがちでした。特に沢山プレイしているゲームは下の三つ！アイコンからsteamの購入ページに行けるから買って遊んでみてね。</p>
+                </div>
+                <div id="IconElements2">
+                    <span class="Icon2">
+                        <a class="IMG2" href="https://store.steampowered.com/app/1172470/_/?l=japanese">
+                            <img class="FadeUpImage2" src="img/ApexIcon.png">
+                        </a>
+                    </span>
+                    <span class="Icon2">
+                        <a class="IMG2" href="https://store.steampowered.com/app/524220/NieRAutomata/">
+                            <img class="FadeUpImage2" src="img/NierIcon.png">
+                        </a>
+                    </span>
+                    <span class="Icon2">
+                        <a class="IMG2" href="https://store.steampowered.com/app/381210/Dead_by_Daylight/">
+                            <img class="FadeUpImage2" src="img/DBDIcon.png">
+                        </a>
+                    </span>
                 </div>
             </div>
             <!--まっきーの紹介-->
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
             
+            <!--↓改行↓-->
+            <br><br><br><br><br>
+            <!--↑改行↑-->
             
-            <div class="block" id="target3">
-                <div id="MackyDetail">
-                    <div id="Ycontents3">
-                    <img class="sample-text3" src="img/YomomoHam.png" width="100px">
+<!--よももの趣味-->
+            <div class="block" id="FadeUpElement3">
+                <div id="SecondElement">
+                    <div id="Yomomo3">
+                        <img class="FadeUpImage3" src="img/YomomoHam.png" width="100px">
                     </div>
-
-                <h3 class="an2-fadeup3" id="HHH3">趣味</h3>
-                <p class="an2-fadeup3" id="P3">ゲームは勿論、漫画や小説を読んだり、お絵かきも多少ですが好きです！知らない場所を散歩するのも結構好きだったり？？おいしいお店を探したりするのも好きです。また、ゲームやwebページ、アプリケーション等も作って遊んでます。一緒に勉強したい人居たら分かる範囲で教えるよ！一緒に頑張ろうね。</p>
-            </div>
+                    <h3 class="TextFadeUP3" id="H3">趣味</h3>
+                    <p class="TextFadeUP3" id="P3">ゲームは勿論、漫画や小説を読んだり、お絵かきも多少ですが好きです！知らない場所を散歩するのも結構好きだったり？？おいしいお店を探したりするのも好きです。また、ゲームやwebページ、アプリケーション等も作って遊んでます。一緒に勉強したい人居たら分かる範囲で教えるよ！一緒に頑張ろうね。</p>
+                </div>
 <!--
-            <div id="contents3">
-                <span class="Icon3" id="icon31"><a href="https://store.steampowered.com/app/1172470/_/?l=japanese"><img class="sample-text3" src="img/ApexIcon.png" width="100px"></a></span>
-                <span class="Icon3" id="icon32"><a href="https://store.steampowered.com/app/524220/NieRAutomata/"><img class="sample-text3" src="img/NierIcon.png" width="100px"></a></span>
-                <span class="Icon3" id="icon33"><a href="https://store.steampowered.com/app/381210/Dead_by_Daylight/"><img class="sample-text3" src="img/DBDIcon.png" width="100px"></a></span>
+                <div id="IconElements3">
+                    <span class="Icon3">
+                        <a class="IMG3" href="https://store.steampowered.com/app/1172470/_/?l=japanese">
+                            <img class="FadeUpImage3" src="img/ApexIcon.png">
+                        </a>
+                    </span>
+                    <span class="Icon3">
+                        <a class="IMG3" href="https://store.steampowered.com/app/524220/NieRAutomata/">
+                            <img class="FadeUpImage3" src="img/NierIcon.png">
+                        </a>
+                    </span>
+                    <span class="Icon3">
+                        <a class="IMG3" href="https://store.steampowered.com/app/381210/Dead_by_Daylight/">
+                            <img class="FadeUpImage3" src="img/DBDIcon.png">
+                        </a>
+                    </span>
                 </div>
-            </div>
 -->
+            </div>
+            
+            
+            <!--↓フッター↓-->
             <footer>
                 <p>CocoaGamersPage</p>
                 <p>Yomomo_self-introduction</p>
                 <p>-Links are being created.-</p>
             </footer>
+            <!--↑フッター↑-->
+            
         </div>
     </body>
 </html>

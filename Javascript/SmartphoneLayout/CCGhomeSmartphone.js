@@ -3,8 +3,8 @@ let once2 = false;
 let once3 = false;
 
 window.addEventListener('scroll', function () {
-    taeget_position = document.querySelector('#target').getBoundingClientRect().top;
-    taeget_position2 = document.querySelector('#target2').getBoundingClientRect().top;
+    taeget_position = document.querySelector('#FadeUpElement').getBoundingClientRect().top;
+    taeget_position2 = document.querySelector('#FadeUpElement2').getBoundingClientRect().top;
     
     if (taeget_position <= window.innerHeight && once !== true) {
         once = true;
@@ -14,7 +14,7 @@ window.addEventListener('scroll', function () {
                 height: 150px;
                 background-color: orange;
             }
-            .sample-text1 {
+            .FadeUpImage {
                 margin-left: 5%;
                 margin-top: 2%;
                 margin-bottom:  5%; 
@@ -31,16 +31,16 @@ window.addEventListener('scroll', function () {
                     transform: translateY(0);
                 }
             }
-            #HHH{
+            #H1{
                 text-align: center;
-                font-size: 20px;
+                font-size: 15px;
                 font-weight: bold;
             }
-            #P{
+            #P1{
                 margin: 0 8% 8% 8%;
                 font-size: 16px;
             }
-            .an2-fadeup {
+            .TextFadeUP {
                 font-weight: bold;
                 animation-name: fadeup;
                 animation-duration: 4s;
@@ -55,7 +55,7 @@ window.addEventListener('scroll', function () {
                     transform: translateY(0);
                 }
             }
-            #contents{
+            #IconElements{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -82,7 +82,7 @@ window.addEventListener('scroll', function () {
                 height: 150px;
                 background-color: green;
             }
-            .sample-text2 {
+            .FadeUpImage2 {
                 margin-left: 5%;
                 margin-top: 2%;
                 margin-bottom:  5%;
@@ -99,7 +99,7 @@ window.addEventListener('scroll', function () {
                     transform: translateY(0);
                 }
             }
-            #HHH2{
+            #H2{
                 text-align: center;
                 font-size: 26px;
             }
@@ -107,7 +107,7 @@ window.addEventListener('scroll', function () {
                 margin: 0 5% 5% 5%;
                 font-size: 16px;
             }
-            .an2-fadeup2 {
+            .TextFadeUP2 {
                 font-weight: bold;
                 animation-name: fadeup;
                 animation-duration: 4s;
@@ -122,7 +122,7 @@ window.addEventListener('scroll', function () {
                     transform: translateY(0);
                 }
             }
-			#contents2{
+			#IconElements2{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -135,7 +135,7 @@ window.addEventListener('scroll', function () {
             #Icon2{
                 display: inline-block; 
             }
-            a.IMGM img{
+            a.IMG2 img{
                 width: 70px;
             }`
         document.body.appendChild(style)

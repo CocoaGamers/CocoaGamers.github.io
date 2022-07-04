@@ -34,10 +34,11 @@ window.addEventListener('scroll', function () {
             }
             #H1{
                 text-align: center;
-                font-size: 32px;
+                font-size: 15px;
+                font-weight: bold;
             }
             #P1{
-                margin: 0 5% 5% 5%;
+                margin: 0 8% 8% 8%;
                 font-size: 16px;
             }
             .TextFadeUP {
@@ -68,7 +69,7 @@ window.addEventListener('scroll', function () {
             #Icon{
                 display: inline-block; 
             }a.IMG img{
-                width: 100px;
+                width: 70px;
             }`
         document.body.appendChild(style)
     }
@@ -100,10 +101,11 @@ window.addEventListener('scroll', function () {
             }
             #H2{
                 text-align: center;
-                font-size: 32px;
+                font-size: 15px;
+                font-weight: bold;
             }
             #P2{
-                margin: 0 5% 5% 5%;
+                margin: 0 8% 8% 8%;
                 font-size: 16px;
             }
             .TextFadeUP2 {
@@ -135,7 +137,7 @@ window.addEventListener('scroll', function () {
                 display: inline-block; 
             }
             a.IMG2 img{
-                width: 100px;
+                width: 70px;
             }`
         document.body.appendChild(style)
     }
@@ -167,10 +169,11 @@ window.addEventListener('scroll', function () {
             }
             #H3{
                 text-align: center;
-                font-size: 32px;
+                font-size: 15px;
+                font-weight: bold;
             }
             #P3{
-                margin: 0 5% 5% 5%;
+                margin: 0 8% 8% 8%;
                 font-size: 16px;
             }
             .TextFadeUP3 {
@@ -201,7 +204,7 @@ window.addEventListener('scroll', function () {
             #Icon3{
                 display: inline-block; 
             }a.IMG3 img{
-                width: 100px;
+                width: 70px;
             }`
         document.body.appendChild(style)
     }
