@@ -29,6 +29,7 @@ h1{
 
 #all{
     width: 900px;
+    height: 900px;
     background-color: #FF9933;
     margin: auto;
 }
@@ -41,7 +42,7 @@ div{
     background-image: url(/img/PanelImg.jpg);
     background-size: 202px 202px;
     width: 90%;
-    height: 90%;
+    height: 70%;
 }
 
 body{
