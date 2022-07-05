@@ -1,0 +1,85 @@
+table{
+    margin: auto;
+}
+h2{
+    text-align:center;
+    color: white;
+}
+td.card {
+    width: 100px;
+    height: 140px;
+    min-width: 100px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 36px;
+    background-color: #FFE4CC;
+    box-shadow: rgb(128, 128, 128) 5px 5px;
+}
+td.back {
+    background-image: url("/img/Cade.jpg");
+    background-size: 100px 140px;
+    margin-left: 50px;
+}
+
+body{
+    background-color: orange;
+}
+
+h1{
+    color: white;
+    padding-left: 90px;
+}
+.setumei{
+    color: white;
+    font-size: 16px;
+    padding-left: 90px;
+    font-family: "Comic Sans MS";
+    font-weight: 900; 
+}
+div{
+    display: inline-block;
+}
+textarea{
+    text-align: center;
+    padding: 16px 0px 16px 0px;
+    font-size: 32px;
+}
+#kakeru{
+    font-size: 32px;
+    width: 50px;
+    color: white;
+    font-weight: 900;
+}
+form{
+    text-align: center;
+}
+#yoko{
+    position: absolute;
+}
+#all{
+    height: 100px;
+}
+.tate{
+    display: block;
+}
+
+.tate2{
+    display: block;
+}
+#yokomasu{
+    padding-left: 50px;
+    color: white;
+    font-weight: 900;
+}
+#tatemasu{
+    color: white;
+    font-weight: 900;
+}
+#botan{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-weight: 900;
+}
