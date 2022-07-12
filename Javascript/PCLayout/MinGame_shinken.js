@@ -48,12 +48,12 @@
             timer = setInterval(tick, 1000);
         }
         
-        function save() {
+        function Save() {
             var msg = document.getElementById("memo").value;
             localStorage.setItem("memo", msg);
         }
         
-        function save2() {
+        function Save2() {
             var msg2 = document.getElementById("memo2").value;
             localStorage.setItem("memo2", msg2);
         }

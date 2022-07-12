@@ -1,14 +1,12 @@
 @charset "utf-8";
-            
+
 /*CSSのリセット*/
 * { margin: 0; padding: 0; }
 a { text-decoration: none; }
 ul, ol { list-style: none; }
 img { vertical-align: middle; }
-            
-body{
-    background-color: darkred;
-}
+
+body{ background-color: darkred; }
 
 /*白地の背景*/
 #whole{
@@ -25,14 +23,10 @@ body{
     padding-top: 2%;
 }
 
-.TextFont {
+.TeamText {
     font-family: "Arial Black";
     text-align: center;
     letter-spacing: 6px;
-}
-
-#midashi{
-    font-size: 100%;
 }
 
 h1 {
@@ -104,6 +98,7 @@ h1::before {
 }
 .menu-content {
     width: 100%;
+    min-width: 400px;
     height: 100%;
     position: fixed;
     top: 0;
@@ -148,6 +143,7 @@ list-style: none;
 }
 .menu-content {
     width: 100%;
+    min-width: 400px;
     height: 100%;
     position: fixed;
     top: 0;
@@ -158,6 +154,7 @@ list-style: none;
 }
 
 #menu-btn-check:checked ~ .menu-content {
+    min-width: 400px;
     left: 67%;/*メニューを画面内へ*/
 }
 details summary {
@@ -172,15 +169,14 @@ details summary span {
     color: white;
     margin: 3px 0 3px 20px; 
 }
-
 .menuP:link{ color:#FFFFFF; }
 .menuP:active{ color:#FFFFFF; }
-.menuP:hover{ color:#FDF5E6; background-color: #CD853F; width: 167px;border-radius:4px;}
+.menuP:hover{ color:#FDF5E6; background-color: #CD853F; width: 167px; border-radius:4px; }
 .menuP:visited{ color:#FFFFFF; }
 
 #menuH:link{ color:#FFFFFF; }
 #menuH:active{ color:#FFFFFF; }
-#menuH:hover{ color:#FDF5E6; background-color: #CD853F;border-radius:4px;}
+#menuH:hover{ color:#FDF5E6; background-color: #CD853F; border-radius:4px; }
 #menuH:visited{ color:#FFFFFF; }
         
 #menuH{
@@ -188,43 +184,28 @@ details summary span {
     font-size: 20px;
 }
 
-#Ycontents1{
-    height: 150px;
-    background-color: #CCFF99;
+footer {
+    color: #000000;
+    text-align: center;
+    padding-bottom: 55px;
+    padding-top: 150px;
+    font-family: "Arial Black";
 }
-#Ycontents2{
+
+#Yomomo{
     height: 150px;
-    background-color: #CCFF99;
+    background-color: orange;
 }
-#Ycontents3{
-    height: 150px;
-    background-color: #CCFF99;
-}
-#HHH{
+
+#H1{
     text-align: center;
     font-size: 32px;
 }
-#P{
+#P1{
     margin: 0 5% 5% 5%;
     font-size: 16px;
 }
-#HHH2{
-    text-align: center;
-    font-size: 32px;
-}
-#P2{
-    margin: 0 5% 5% 5%;
-    font-size: 16px;
-}
-#HHH3{
-    text-align: center;
-    font-size: 32px;
-}
-#P3{
-    margin: 0 5% 5% 5%;
-    font-size: 16px;
-}
-#contents{
+#IconElements{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -237,7 +218,20 @@ details summary span {
 #Icon{
     display: inline-block; 
 }
-#contents2{
+
+#Macky{
+    height: 150px;
+    background-color: green;
+}
+#H2{
+    text-align: center;
+    font-size: 32px;
+}
+#P2{
+    margin: 0 5% 5% 5%;
+    font-size: 16px;
+}
+#IconElements2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -250,24 +244,11 @@ details summary span {
 #Icon2{
     display: inline-block; 
 }
-#contents3{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    width: 80%;
-    height: auto;
-    margin-left:10%;
-    background-color: white;
-}
-#Icon3{
-    display: inline-block; 
+
+a.IMG img{
+    width: 100px;
 }
 
-footer {
-    color: #000000;
-    text-align: center;
-    font-size: 16px;
-    padding-bottom: 55px;padding-top: 150px;
-    font-family: "Arial Black";
+a.IMG2 img{
+    width: 100px;
 }

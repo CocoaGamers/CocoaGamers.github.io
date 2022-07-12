@@ -3,19 +3,18 @@ let once2 = false;
 let once3 = false;
 
 window.addEventListener('scroll', function () {
-    taeget_position = document.querySelector('#target').getBoundingClientRect().top;
-    taeget_position2 = document.querySelector('#target2').getBoundingClientRect().top;
-    taeget_position3 = document.querySelector('#target3').getBoundingClientRect().top;
+    taeget_position = document.querySelector('#FadeUpElement').getBoundingClientRect().top;
+    taeget_position2 = document.querySelector('#FadeUpElement2').getBoundingClientRect().top;
     
     if (taeget_position <= window.innerHeight && once !== true) {
         once = true;
         const style = document.createElement('style')
         style.innerHTML = 
-            `#contents1{
+            `#Yomomo{
                 height: 150px;
-                background-color: #CCFF99;
+                background-color: orange;
             }
-            .sample-text1 {
+            .FadeUpImage {
                 margin-left: 5%;
                 margin-top: 2%;
                 margin-bottom:  5%; 
@@ -32,15 +31,15 @@ window.addEventListener('scroll', function () {
                     transform: translateY(0);
                 }
             }
-            #HHH{
+            #H1{
                 text-align: center;
                 font-size: 32px;
             }
-            #P{
+            #P1{
                 margin: 0 5% 5% 5%;
                 font-size: 16px;
             }
-            .an2-fadeup {
+            .TextFadeUP {
                 font-weight: bold;
                 animation-name: fadeup;
                 animation-duration: 4s;
@@ -55,7 +54,7 @@ window.addEventListener('scroll', function () {
                     transform: translateY(0);
                 }
             }
-            #contents{
+            #IconElements{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -67,6 +66,8 @@ window.addEventListener('scroll', function () {
             }
             #Icon{
                 display: inline-block; 
+            }a.IMG img{
+                width: 100px;
             }`
         document.body.appendChild(style)
     }
@@ -75,14 +76,14 @@ window.addEventListener('scroll', function () {
         once2 = true;
         const style = document.createElement('style')
         style.innerHTML = 
-            `#Ycontents2{
+            `#Macky{
                 height: 150px;
-                background-color: #CCFF99;
+                background-color: green;
             }
-            .sample-text2 {
+            .FadeUpImage2 {
                 margin-left: 5%;
                 margin-top: 2%;
-                margin-bottom:  5%; 
+                margin-bottom:  5%;
                 animation-name: fadein;
                 animation-duration: 4s;
             }
@@ -96,7 +97,7 @@ window.addEventListener('scroll', function () {
                     transform: translateY(0);
                 }
             }
-            #HHH2{
+            #H2{
                 text-align: center;
                 font-size: 32px;
             }
@@ -104,7 +105,7 @@ window.addEventListener('scroll', function () {
                 margin: 0 5% 5% 5%;
                 font-size: 16px;
             }
-            .an2-fadeup2 {
+            .TextFadeUP2 {
                 font-weight: bold;
                 animation-name: fadeup;
                 animation-duration: 4s;
@@ -119,7 +120,7 @@ window.addEventListener('scroll', function () {
                     transform: translateY(0);
                 }
             }
-			#contents2{
+			#IconElements2{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -131,70 +132,8 @@ window.addEventListener('scroll', function () {
             }
             #Icon2{
                 display: inline-block; 
-            }`
-        document.body.appendChild(style)
-    }
-    
-    if (taeget_position3 <= window.innerHeight && once3 !== true) {
-        once3 = true;
-        const style = document.createElement('style')
-        style.innerHTML = 
-            `#contents3{
-                height: 150px;
-                background-color: #CCFF99;
-            }
-            .sample-text3 {
-                margin-left: 5%;
-                margin-top: 2%;
-                margin-bottom:  5%; 
-                animation-name: fadein;
-                animation-duration: 4s;
-            }
-            @keyframes fadein {
-                from {
-                    opacity: 0;
-                    transform: translateY(20px);
-                }
-                to {
-                    opacity: 1;
-                    transform: translateY(0);
-                }
-            }
-            #HHH3{
-                text-align: center;
-                font-size: 32px;
-            }
-            #P3{
-                margin: 0 5% 5% 5%;
-                font-size: 16px;
-            }
-            .an2-fadeup3 {
-                font-weight: bold;
-                animation-name: fadeup;
-                animation-duration: 4s;
-            }
-            @keyframes fadeup {
-                from {
-                    opacity: 0;
-                    transform: translateY(20px);
-                }
-                to {
-                    opacity: 1;
-                    transform: translateY(0);
-                }
-            }
-            #contents3{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                text-align: center;
-                width: 80%;
-                height: auto;
-                margin-left:10%;
-                background-color: white;
-            }
-            #Icon3{
-                display: inline-block; 
+            }a.IMG2 img{
+                width: 100px;
             }`
         document.body.appendChild(style)
     }
