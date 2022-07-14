@@ -12,7 +12,7 @@ window.addEventListener('scroll', function () {
         style.innerHTML = 
             `#Yomomo{
                 height: 150px;
-                background-color: orange;
+                background-color: green;
             }
             .FadeUpImage {
                 margin-left: 5%;
